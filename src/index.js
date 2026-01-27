@@ -1,20 +1,20 @@
 const formatter = require('./formatter');
 
 const LokaWaktu = {
-  formatLengkap: formatter.formatLengkap,
-  formatPendek: formatter.formatPendek,
-  formatRelatif: formatter.formatRelatif,
+  formatFull: formatter.formatFull,
+  formatShort: formatter.formatShort,
+  formatRelative: formatter.formatRelative,
   
   /**
-   * Mendapatkan waktu saat ini dalam format lengkap Indonesia
+   * Gets current date in full Indonesian format
    */
-  sekarang: () => formatter.formatLengkap(new Date())
+  now: () => formatter.formatFull(new Date())
 };
 
 module.exports = LokaWaktu;
 
-// --- TESTING AREA (Hapus atau beri komentar jika ingin di-publish) ---
-console.log("=== TEST LOKAWAKTU ===");
-console.log("Sekarang       :", LokaWaktu.sekarang());
-console.log("Format Pendek  :", LokaWaktu.formatPendek(new Date()));
-console.log("Waktu Relatif  :", LokaWaktu.formatRelatif(new Date(Date.now() - 3600000))); // 1 jam lalu
+// --- TESTING AREA ---
+console.log("=== LOKAWAKTU TEST ===");
+console.log("Current Time    :", LokaWaktu.now());
+console.log("Short Format    :", LokaWaktu.formatShort(new Date()));
+console.log("Relative Time   :", LokaWaktu.formatRelative(new Date(Date.now() - 3600000)));
