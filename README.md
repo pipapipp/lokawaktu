@@ -30,14 +30,16 @@ Usage Examples
     const fiveMinutesAgo = new Date(Date.now() - 5 * 60 * 1000);
     console.log(LokaWaktu.formatRelative(fiveMinutesAgo)); 
     // Output: "5 menit yang lalu"
-
-🛠️ Project Structure
+```
+###    🛠️ Project Structure
 lokawaktu/
-├── src/
-│   ├── constants.js   # Indonesian Day & Month data
-│   ├── formatter.js   # Core formatting logic
-│   └── index.js       # Main entry point
-└── README.md          # Documentation
 
-🤝 Contributing
+├── src/
+
+│   ├── constants.js   
+│   ├── formatter.js  
+│   └── index.js     
+└── README.md         
+
+###    🤝 Contributing
 Contributions are welcome! Feel free to open an Issue or submit a Pull Request if you have ideas for new features like "Time in Words" or specialized time zone handling.
