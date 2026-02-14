@@ -31,7 +31,7 @@ Usage Examples
     console.log(LokaWaktu.formatRelative(fiveMinutesAgo)); 
     // Output: "5 menit yang lalu"
 ```
-###    🛠️ Project Structure
+## 🛠️ Project Structure
 lokawaktu/
 
 ├── src/
@@ -41,5 +41,5 @@ lokawaktu/
 │   └── index.js     
 └── README.md         
 
-###    🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Feel free to open an Issue or submit a Pull Request if you have ideas for new features like "Time in Words" or specialized time zone handling.
