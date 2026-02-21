@@ -1,15 +1,13 @@
-# 🕰️ LokaWaktu
+#  LokaWaktu
 
 **LokaWaktu** is a lightweight, zero-dependency JavaScript utility library for formatting dates and times into Indonesian standards. Built for performance, readability, and ease of use.
 
-## ✨ Key Features
-* 📅 **Full Format**: Convert dates into formal Indonesian format (e.g., *Selasa, 27 Januari 2026*).
-* 🔢 **Short Format**: Concise numeric date formatting (e.g., *27/01/2026*).
-* 🕒 **Relative Time**: Human-friendly time differences (e.g., *5 menit yang lalu*, *Baru saja*).
-* 🛡️ **Robust Validation**: Built-in error handling for invalid date inputs.
-* 🚀 **Zero Dependencies**: Pure JavaScript with no external overhead.
+##  Key Features
+*  Convert dates into formal Indonesian format (e.g., *Selasa, 27 Januari 2026*).
+*  Concise numeric date formatting (e.g., *27/01/2026*).
+*  Human-friendly time differences (e.g., *5 menit yang lalu*, *Baru saja*).
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Installation
 Currently, you can clone this repository and import the utility into your project:
@@ -31,7 +29,7 @@ Usage Examples
     console.log(LokaWaktu.formatRelative(fiveMinutesAgo)); 
     // Output: "5 menit yang lalu"
 ```
-## 🛠️ Project Structure
+##  Project Structure
 lokawaktu/
 
 ├── src/
@@ -41,5 +39,5 @@ lokawaktu/
 │   └── index.js     
 └── README.md         
 
-## 🤝 Contributing
+##  Contributing
 Contributions are welcome! Feel free to open an Issue or submit a Pull Request if you have ideas for new features like "Time in Words" or specialized time zone handling.
